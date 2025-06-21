@@ -2,6 +2,7 @@ import React from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 import Hero_section from "../Components/Hero_section";
 import { NavLink } from "react-router-dom";
+import {earth} from"../assets/earth.png"
 const Home = () => {
   return (
     <main className="pl-30 pr-30 mt-20">
@@ -20,7 +21,7 @@ const Home = () => {
           </NavLink>
         </div>
         <div className="">
-            <img src="./img.png" alt="The Earth" width='400px'/>
+            <img src={earth} alt="The Earth" />
         </div>
       </div>
 
