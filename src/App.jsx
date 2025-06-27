@@ -11,12 +11,12 @@ import CountryDetails from "./Components/UI/CountryDetails";
 
 const router = createBrowserRouter([
   {
-    path:"/",
+    path:"/proj2/",
     element :<Applayout/>,
     errorElement: <Error/>,
     children: [
       {
-        path: "/proj2/",
+        path: "/",
         element: <Home />,
       },
       {
