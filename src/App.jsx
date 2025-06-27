@@ -11,7 +11,7 @@ import CountryDetails from "./Components/UI/CountryDetails";
 
 const router = createBrowserRouter([
   {
-    path:"/proj2/",
+    path:"/",
     element :<Applayout/>,
     errorElement: <Error/>,
     children: [
